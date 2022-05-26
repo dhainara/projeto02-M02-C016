@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Kumbh+Sans&family=Open+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height:100%;
+    width: 100%;
+}
+header {
+    min-height: 10%;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img,footer img {
+    width: 50px;
+}
+
+header p {
+}
+
+main{
+    height: auto;
+}
+
+section#banner_Cad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(198, 0, 0);
+    height: auto;
+    padding: 50px 20px;
+}
+
+section#banner_Cad img {
+    width: 400px;
+}
+section#banner_Cad form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 60px;
+    width: 350px;
+    height: 80%;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#banner_Cad input{
+    width: 70%;
+}
+
+section#banner_Cad label {
+    width: 30%;
+    text-align: end;
+}
+
+section#banner_Cad button {
+    background-color: white;
+    padding: 20px;
+    border: none;
+}
+
+section#banner_Cad button:hover {
+    background-color: grey;
+    transition: 0.3s;
+}
+
+section#card_poke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+article#card_poke {
+    padding: 50px;
+    background-color: grey; 
+    height:150px;
+    width: 300px;
+}
+
+div.card_title {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+}
+
+div.card_title img {
+    width: 50px;
+}
+
+div.card_info p{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height:20%;
+    background-color: rgba(22, 22, 22);
+}
+
+footer img{
+    min-height: 20%;
+}
